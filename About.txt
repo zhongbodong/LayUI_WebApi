@@ -1,0 +1,4 @@
+﻿1、前后端分离解读，搭建LayUI+WebApi基础框架
+2、了解layUI框架的结构，使用LayUI 表单
+3、localStorage 、sessionStorage 了解和使用
+4、LayUI  teple 语法（layer 语法）

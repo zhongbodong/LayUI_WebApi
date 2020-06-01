@@ -1,0 +1,31 @@
+同学们能正常听到老师讲话的   刷个1；
+ 
+ 
+layUI + webApi
+
+背景：绝对前后端分离，就是前端只做前端的事，后台只提供数据。
+
+好处：1、比较流行。
+          2、根据服务器分类。
+          3、根据开发人员分类。
+
+       webform   Asp.Net  MVC
+
+layUI : 结合Html  Css   js  三种元素为一体的一整套前端框架。
+         
+layui 在渲染页面时很多时候是依赖于Css的；
+layUI 在页面JS 部分的标准语法：
+			layui.use(['layer', 'form'], function () {
+           	
+      			  })
+
+LocalStorage:    创建了一个在本地(浏览器)存储的键值对；保存的键值对没有过期时间，可以手动清除，通过window.localStroage来调用
+SessionStorage:   创建了一个在本地(浏览器)存储的键值对，它在浏览器关闭之后会自行清除。
+
+
+layer 模板：  <script id="tepMenue" type="text/html">   </script>
+	     模板必须有一个ID,type要设置为text/html 
+   	     layer 语法 或者 模板语法： 以  {{#   }}开头。 以  {{#   }} 结尾
+	    layui.each(d,function(index,item){ 循环遍历的对象 必须为字母d，
+                    绑定数据源的时候：必须以   {{ }}  嵌套字段属性 
+
